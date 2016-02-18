@@ -1,0 +1,537 @@
+@font-face {
+  font-family: 'Clan';
+  src: url('../fonts/Clan.otf');
+}
+
+body { 
+  font-family: Clan ,sans-serif;
+  padding-top: 50px; 
+  font-size: 13px;
+}
+
+img {
+  width: 100%;
+}
+
+ul {
+  padding: 0 15px;
+}
+
+.block-center {
+  text-align: center;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.center {
+  text-align: center;
+}
+
+.thumbnail {
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+.tal {
+  text-align: left;
+}
+
+p {
+  margin: 0px;
+  line-height: 2.25;
+}
+
+.m-40 {
+  margin-top: -40px;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+.pb-20 {
+  padding-bottom: 20px;
+}
+
+.pb-30 {
+  padding-bottom: 30px;
+}
+
+.pb-40 {
+  padding-bottom: 40px;
+}
+
+hr {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border: 0;
+  border-top: 1px solid #dce0e0;
+}
+
+.btn {
+  border-radius: 3px!important;
+}
+
+.btn-danger.btn {
+  border-color: #ff5a5f;
+  border-bottom-color: #e00007;
+  background-color: #ff5a5f;
+  color: #fff;
+}
+
+
+
+.navbar-default {
+  background: #181715;
+  border-color: #e7e7e7;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #FFF;
+  text-transform: uppercase;
+  font-size: 11px;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: #FF4949;
+}
+
+.nav-center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.navbar-default .navbar-nav.nav-center>li>a {
+  color: #FFF;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-brand:hover {
+  color: #FFF;
+  text-transform: uppercase;
+  font-size: 11px;
+}
+
+.logo {
+  display: block;
+  margin: 40px auto 20px;
+  max-width: 150px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 17px;
+  border-top: 1px solid #C0C0C0;
+  padding: 20px 0 10px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 17px;
+  margin: 40px 0 20px;
+}
+
+.home-desc {
+  margin-top: 65px;
+}
+
+.home-desc h2 {
+  font-size: 20px;
+  margin: 0 0 25px;
+}
+
+.home-desc a {
+  margin: 20px 0px;
+}
+
+.carousel-caption a.name {
+  color: #fff;
+  text-shadow: #000 0 0 40px;
+  position: absolute;
+  left: 0;
+  top: -35px;
+  display: inline-block;
+  padding: 0 10px;
+  font-size: 20px!important;
+  background-color: rgba(7, 7, 22, 0.3);
+  text-transform: uppercase!important;
+  text-decoration: none;
+}
+
+.carousel-caption .btn {
+  position: absolute;
+  left: 0;
+  top: 0px;
+  font-size: 10px;
+  text-transform: uppercase;
+  padding: 5px 20px;
+}
+
+.stats {
+  background: #181715;
+  color: white;
+  padding: 10px 30px;
+}
+
+.stats div {
+  display: inline-block;
+  width: 32%;
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.stats div i {
+  font-size: 15px;
+}
+
+.home-desc .home-img {
+  height: 325px;
+  width: initial;
+  float: right;
+}
+
+.home-all-girls {
+  border-top: 1px solid #C0C0C0;
+  padding: 20px 0;
+  border-bottom: 1px solid #C0C0C0;
+}
+
+.home-all-girls small {
+  float: right;
+  padding: 4px 10px;
+}
+
+.more-girls {
+  width: 355px;
+  display: block;
+  margin: 50px auto 0px;
+}
+
+.bottom_line {
+  background: #181818;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  color: #FFFFFF;
+  margin-top: 40px;
+}
+
+.bottom_line h3 {
+  color: #B3B3B3;
+  font-size: 15px;
+  border-bottom: 1px solid #424242;
+  text-align: left!important;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+
+.bottom_line p {
+  margin: 0 0 10px;
+  line-height: 0;
+}
+
+.bottom_line p a {
+  color: #FFF!important;
+  text-decoration: none;
+  font-size: 11px!important;
+  line-height: 25px;
+}
+
+
+.feat-1 {
+  background-image: url("img/girl1.jpeg");
+  background-size: 100%;
+  background-position: center;
+}
+
+.feat-2 {
+  background-image: url("img/girl2.jpeg");
+  background-size: 100%;
+  background-position: center;
+}
+
+.feat-3 {
+  background-image: url("img/girl3.jpeg");
+  background-size: 100%;
+  background-position: center;
+}
+
+.feat-4 {
+  background-image: url("img/girl4.jpeg");
+  background-size: 100%;
+  background-position: center;
+}
+
+.cta {
+  font-size: 9px;
+  margin-right: 3px;
+}
+
+.benefits {
+    margin: 50px 0;
+}
+
+.benefits-wrapper {
+  margin: 100px 0 70px;
+}
+
+.benefits h3 {
+    font-size: 17px;
+    margin-bottom: 18px;
+}
+
+.benefits .fa {
+    padding: 25px;
+    font-size: 100px;
+}
+
+.thumbnail .pic-thumb {
+    height: 190px; 
+    width: 100%; 
+    display: block;
+    background-size: cover;
+    background-position: inherit;
+    background-repeat: no-repeat;
+}
+
+.thumbnail .pic-thumb.girl-1 {
+    background-image: url("../img/girl1.jpeg");
+    background-position: center;
+}
+.thumbnail .pic-thumb.girl-2 {
+    background-image: url("../img/girl2.jpeg");
+}
+.thumbnail .pic-thumb.girl-3 {
+    background-image: url("../img/girl3.jpeg");
+}
+.thumbnail .pic-thumb.girl-4 {
+    background-image: url("../img/girl4.jpeg");
+}
+.thumbnail .pic-thumb.girl-5 {
+    background-image: url("../img/girl5.jpeg");
+    background-position: center;
+}
+.thumbnail .pic-thumb.girl-6 {
+    background-image: url("../img/girl6.jpeg");
+    background-position: center;
+}
+.thumbnail .pic-thumb.girl-7 {
+    background-image: url("../img/girl7.jpeg");
+}
+.thumbnail .pic-thumb.girl-8 {
+    background-image: url("../img/girl8.jpeg");
+}
+/*Profile*/
+
+.profile-pane {
+  position: relative;
+}
+
+.profile-pane .pricing {
+  background-color: rgba(60,63,64,0.9);
+  border: 0;
+  color: #fff;
+  height: 40px;
+  text-transform: capitalize;
+  width: 315px;
+  z-index: 1001;
+  position: absolute;
+  right: 0;
+  top: -40px;
+  font-size: 24px;
+  padding: 4px 20px;
+}
+
+.profile-pane .pricing small {
+  font-size: 14px;
+  float: right;
+  padding: 6px 0;
+}
+
+.profile-pane .contact-details {
+  position: absolute;
+  width: 315px;
+  z-index: 10;
+  border-top: none;
+  padding: 25px 20px;
+  right: 0px;
+  border: 1px solid #dce0e0;
+  background-color: #fff;
+  border-radius: 0;
+}
+
+.contact-details .btn-default {
+  margin-top: 15px;
+}
+
+.profile-desc {
+  font-size: 14px;
+  line-height: 1.43;
+  color: #565a5c;
+  background-color: #f5f5f5;
+  padding-bottom: 40px;
+  border: 1px solid #dce0e0;
+}
+
+.profile-desc .panel {
+  border: 1px solid #dce0e0;
+  background-color: #edefed;
+  padding: 20px;
+  border-radius: 0;
+}
+
+.profile-desc .panel p {
+  font-size: 14px;
+  line-height: 1.43;
+  color: #565a5c;
+  margin-bottom: 0px;
+}
+
+.profile-desc .tal {
+  color: #4C4F51;
+}
+
+.media-object {
+  width: 110px;
+  height: 110px;
+  border-radius: 100%;
+  margin: 25px 65px 25px 30px;
+}
+
+.media-heading {
+  font-size: 21px;
+}
+
+.media-body {
+  padding-top: 30px;
+}
+
+.display-address {
+  font-size: 11px;
+}
+
+.display-address .star-rating {
+  display: inline-block;
+}
+
+.foreground {
+  margin-left: 5px;
+}
+
+.foreground i {
+  color: #ffb400;
+  font-size: 12px;
+}
+
+.profile-overview>div {
+  display: inline-block;
+  width: 24%;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.profile-overview .p-icons {
+  display: block;
+  width: 56px;
+  height: 62px;
+  margin: 5px auto;
+  background-image: url("../img/profile-icons.jpg");
+}
+
+.profile-overview .p-icons.present {
+  background-position: -2px 0px;
+  width: 48px;
+}
+
+.profile-overview .p-icons.ruler {
+  background-position: -61px 0px;
+  width: 37px; 
+}
+
+.profile-overview .p-icons.boobs {
+   background-position: -99px 3px; 
+}
+
+.profile-overview .p-icons.body {
+  background-position: -164px 3px;
+  width: 50px;
+}
+
+.profile-desc ul li {
+  margin-top: 10px;
+}
+
+.profile-desc ul li:first-child {
+  margin-top: 0px;
+}
+
+.profile-desc hr {
+  margin-bottom: 25px;
+}
+
+.profile-desc .prices span {
+  float: right;
+  margin-right: 30px;
+}
+
+.photo-grid {
+  height: 426px;
+  margin-top: 30px;
+}
+
+.featured-height .row-full-height>a>div {
+    height: 282px;
+    width: 100%; 
+    display: block;
+    background-size: cover;
+    background-position: inherit;
+    background-repeat: no-repeat;
+    margin-bottom: 3px;
+}
+
+.featured-height .girl-10-1 {
+    background-image: url("../img/girl10-1.jpeg");
+}
+.featured-height .girl-10-3 {
+    background-image: url("../img/girl10-3.jpeg");
+}
+
+.supporting-height .row-full-height>a>div {
+  height: 141px;
+  width: 100%; 
+    display: block;
+    background-size: cover;
+    background-position: inherit;
+    background-repeat: no-repeat;
+  margin-top: 3px;
+}
+
+.supporting-height .girl-10-2 {
+    background-image: url("../img/girl10-2.jpeg");
+}
+.supporting-height .girl-10-4 {
+    background-image: url("../img/girl10-4.jpeg");
+}
+.supporting-height .girl-10-5 {
+    background-image: url("../img/girl10-5.jpeg");
+}
+
+.photo-grid .col-sm-4, .photo-grid .col-sm-6 {
+  padding-right: 1.5px;
+  padding-left: 1.5px;
+}
+
+.book-now {
+    display: block;
+    margin: 0 auto;
+    width: 89px;
+}
+
+.book-now a {
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+
